@@ -1,21 +1,55 @@
 aid: kroll-bond-rating-agency
 name: Kroll Bond Rating Agency
-description: 'Kroll Bond Rating Agency is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: >-
+  Kroll Bond Rating Agency (KBRA) is a full-service credit rating agency founded in 2010 by Jules Kroll
+  and headquartered in New York, with offices in Dresher PA, Frederick MD, Chicago, Dublin, London, and
+  Tokyo. KBRA is registered with the U.S. SEC as a Nationally Recognized Statistical Rating Organization
+  and with ESMA and the UK FCA through its Irish and UK entities. It has issued 96,000+ ratings covering
+  $4.78 trillion of rated issuance across ABS, CMBS, RMBS, structured credit, corporates, financial
+  institutions, funds, insurance, project finance, public finance, and sovereigns. KBRA distributes
+  ratings and analytics commercially through the KBRA Analytics product family — Ratings Feed, Credit
+  Intelligence, Direct Lending Deals, Premium, Credit Profile (KCP), and Financial Intelligence (KFI).
+  KBRA publishes no public API or developer portal; machine access is contract-gated and delivered as
+  bulk feeds over email/FTP/SFTP, through the Snowflake Marketplace, or via Bloomberg, Aladdin, and
+  FactSet.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kbra-static-assets.azureedge.net/assets/kbra-social-logo.webp
 url: https://raw.githubusercontent.com/api-evangelist/kroll-bond-rating-agency/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bessemer-venture-partners
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: no-api
+x-tier-reason: >-
+  Enriched 2026-07-19. KBRA publishes no public REST/GraphQL API, no developer portal, no OpenAPI, no
+  SDKs, and no /.well-known/ discovery documents. Data access is a commercial feed/marketplace
+  arrangement (email/FTP/SFTP, Snowflake Marketplace, Bloomberg/Aladdin/FactSet). Company identity,
+  regulatory compliance surface, and domain security were captured; API-shaped artifacts are
+  legitimately not applicable.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Unknown
+- Credit Ratings
+- Financial Services
+- Financial Data
+- Structured Finance
+- Fixed Income
+- Risk
+- Analytics
+- Market Data
+- NRSRO
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +58,45 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.kbra.com/
+  url: https://www.kbra.com/
+- type: About
+  url: https://www.kbra.com/company/overview
+- type: Products
+  url: https://www.kbra.com/analytics/products/overview
+- type: Documentation
+  url: https://www.kbra.com/understanding-ratings/methodologies
+- type: Support
+  url: https://www.kbra.com/company/contact-us
+- type: Blog
+  url: https://www.kbra.com/company/newsroom/news
+- type: Press
+  url: https://www.kbra.com/company/newsroom/media
+- type: Events
+  url: https://www.kbra.com/company/events
+- type: Careers
+  url: https://www.kbra.com/company/careers
+- type: Podcast
+  url: https://www.engagewith.kbra.com/podcasts
+- type: SignUp
+  url: https://www.kbra.com/sign-up
+- type: Login
+  url: https://www.kbra.com/auth/login
+- type: TermsOfService
+  url: https://www.kbra.com/legal/terms-of-use/website
+- type: PrivacyPolicy
+  url: https://www.kbra.com/legal/privacy-notice
+- type: CookiePolicy
+  url: https://www.kbra.com/legal/cookie-policy
+- type: Compliance
+  url: https://www.kbra.com/regulatory/certifications-and-recognitions
+- type: Conformance
+  url: conformance/kroll-bond-rating-agency-conformance.yml
+- type: DomainSecurity
+  url: security/kroll-bond-rating-agency-domain-security.yml
+- type: LLMsTxt
+  url: llms/kroll-bond-rating-agency-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
