@@ -1,0 +1,94 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.kbra.com/regulatory/certifications-and-recognitions
+notes: >-
+  KBRA publishes no API, so there are no API-protocol conformance claims
+  (OAuth2/OIDC/OData/JSON:API/RFC 9457 etc.) to assert. What KBRA does publish
+  is an extensive credit-rating-agency regulatory registration and recognition
+  program, captured here as the provider's compliance surface.
+api_standards: []
+regulatory_registrations:
+- id: sec-nrsro
+  name: Nationally Recognized Statistical Rating Organization (NRSRO)
+  authority: U.S. Securities and Exchange Commission
+  jurisdiction: United States
+  conforms: true
+  registered: '2008-02-11'
+  evidence: https://www.kbra.com/regulatory/certifications-and-recognitions
+- id: naic-crp
+  name: Credit Rating Provider (CRP)
+  authority: National Association of Insurance Commissioners
+  jurisdiction: United States
+  conforms: true
+  registered: '2012-07-01'
+  evidence: https://www.kbra.com/regulatory/certifications-and-recognitions
+- id: esma-cra
+  name: Registered Credit Rating Agency under Regulation (EC) No. 1060/2009
+  authority: European Securities and Markets Authority
+  jurisdiction: European Union
+  entity: Kroll Bond Rating Agency Europe Limited
+  conforms: true
+  registered: '2017-11-13'
+  evidence: https://www.kbra.com/regulatory/certifications-and-recognitions
+- id: fca-cra
+  name: Registered Credit Rating Agency
+  authority: UK Financial Conduct Authority
+  jurisdiction: United Kingdom
+  entity: Kroll Bond Rating Agency UK Limited
+  conforms: true
+  registered: '2023-02-10'
+  evidence: https://www.kbra.com/regulatory/certifications-and-recognitions
+- id: eba-ecai
+  name: External Credit Assessment Institution (ECAI)
+  authority: European Banking Authority
+  jurisdiction: European Union
+  conforms: true
+  evidence: https://www.kbra.com/regulatory/certifications-and-recognitions
+- id: pra-ecai
+  name: External Credit Assessment Institution (ECAI)
+  authority: UK Prudential Regulation Authority
+  jurisdiction: United Kingdom
+  conforms: true
+  evidence: https://www.kbra.com/regulatory/certifications-and-recognitions
+- id: osfi-ecai
+  name: External Credit Assessment Institution (ECAI)
+  authority: Office of the Superintendent of Financial Institutions
+  jurisdiction: Canada
+  conforms: true
+  evidence: https://www.kbra.com/regulatory/certifications-and-recognitions
+- id: osc-dro
+  name: Designated Rating Organization (DRO), Structured Finance
+  authority: Ontario Securities Commission
+  jurisdiction: Canada
+  conforms: true
+  evidence: https://www.kbra.com/regulatory/certifications-and-recognitions
+- id: twfsc-qra
+  name: Qualified Rating Agency
+  authority: Financial Supervisory Commission
+  jurisdiction: Taiwan
+  conforms: true
+  evidence: https://www.kbra.com/regulatory/certifications-and-recognitions
+- id: usda-rus
+  name: Recognized rating agency
+  authority: USDA Rural Utilities Service
+  jurisdiction: United States
+  conforms: true
+  evidence: https://www.kbra.com/regulatory/certifications-and-recognitions
+- id: dol-erisa
+  name: Rating agency exemption under ERISA / IRC provisions
+  authority: U.S. Department of Labor
+  jurisdiction: United States
+  conforms: true
+  evidence: https://www.kbra.com/regulatory/certifications-and-recognitions
+- id: dot-tifia
+  name: Accepted rating agency for TIFIA
+  authority: U.S. Department of Transportation
+  jurisdiction: United States
+  conforms: true
+  evidence: https://www.kbra.com/regulatory/certifications-and-recognitions
+- id: gse-accepted
+  name: Accepted rating agency in seller/servicer guides
+  authority: Fannie Mae and Freddie Mac
+  jurisdiction: United States
+  conforms: true
+  evidence: https://www.kbra.com/regulatory/certifications-and-recognitions

@@ -1,0 +1,62 @@
+# Kroll Bond Rating Agency (KBRA)
+
+> KBRA is a full-service credit rating agency founded in 2010 by Jules Kroll and headquartered in New York. It is registered with the U.S. SEC as a Nationally Recognized Statistical Rating Organization (NRSRO) and with ESMA and the UK FCA through its Irish and UK entities. KBRA has issued 96,000+ ratings covering $4.78 trillion of rated issuance across ABS, CMBS, RMBS, structured credit, corporates, financial institutions, funds, insurance, project finance/infrastructure, public finance, and sovereigns.
+
+Important note for agents: **KBRA publishes no public REST/GraphQL API and no developer portal.** Machine access to KBRA data is a commercial, contract-gated arrangement delivered as bulk feeds (email, FTP/SFTP), through the Snowflake Marketplace, or via third-party platforms (Bloomberg, Aladdin, FactSet). There is no self-serve API key, no OpenAPI description, no SDKs, and no sandbox. Do not attempt to construct API calls against api.kbra.com — it fronts the website backend and returns 404 for all public paths.
+
+## Company
+
+- [Company overview](https://www.kbra.com/company/overview): Founding, leadership, offices (New York, Dresher PA, Frederick MD, Chicago, Dublin, London, Tokyo), 650+ employees, scale statistics.
+- [Contact](https://www.kbra.com/company/contact-us): Sales and analyst contacts by sector and region.
+- [Newsroom](https://www.kbra.com/company/newsroom/news): Company news and press releases.
+- [Media](https://www.kbra.com/company/newsroom/media): Media coverage and commentary.
+- [Events](https://www.kbra.com/company/events): Conferences and speaking engagements.
+- [Careers](https://www.kbra.com/company/careers)
+- [Corporate social responsibility](https://www.kbra.com/company/corporate-social-responsibility)
+
+## Data products and delivery
+
+- [Analytics products overview](https://www.kbra.com/analytics/products/overview): The KBRA Analytics application family.
+- [Ratings Feed](https://www.kbra.com/analytics/products/feeds): Enterprise ratings data covering 90,000+ public ratings. Issuer- and security-level ratings with rating actions (assigned, affirmed, upgraded, downgraded, withdrawn), keyed on market-standard identifiers (CUSIP, ISIN, LEI), updated daily, with audit-ready rating history. Delivery: direct from KBRA via email/FTP/SFTP with sector-level customization and flexible scheduling; via the Snowflake Marketplace; or through Bloomberg, Aladdin, and FactSet. A "Ratings Feed Specifications" technical sheet is published as a PDF for data managers.
+- [Credit Intelligence](https://www.kbra.com/analytics/products/credit-intelligence): Benchmarking of private credit borrowers on adjusted, normalized financial metrics.
+- [Direct Lending Deals (DLD)](https://www.kbra.com/analytics/products/dld): Monthly intelligence on US and European direct lending terms, structures, and pricing.
+- [Premium](https://www.kbra.com/analytics/products/premium): Research, surveillance, and analytics across structured finance and private credit.
+- [Credit Profile (KCP)](https://www.kbra.com/analytics/products/kcp): Loan-level surveillance and analytics for securitized CRE debt.
+- [Financial Intelligence (KFI)](https://www.kbra.com/analytics/products/kfi): Benchmarking and risk assessment across 10,000+ U.S. banks and credit unions; delivered as a web application, an Excel add-in, and data feeds.
+- [Private credit](https://www.kbra.com/private-credit): KBRA's private credit franchise.
+
+## Ratings, research, and methodology
+
+- [Publications search](https://www.kbra.com/search/publications): All KBRA research and rating reports.
+- [Issuer search](https://www.kbra.com/search/issuers)
+- [Transaction search](https://www.kbra.com/search/transactions)
+- [CUSIP search](https://www.kbra.com/search/cusips)
+- [Methodologies](https://www.kbra.com/understanding-ratings/methodologies): In-use and proposed methodologies, published per sector.
+- [Rating scales](https://www.kbra.com/understanding-ratings/rating-scales): Long-term credit, short-term credit, funds, insurance FSR, outlook and watch definitions.
+- [Rating services](https://www.kbra.com/understanding-ratings/rating-services)
+- [Public comments](https://www.kbra.com/understanding-ratings/public-comments): Open comment periods on proposed methodologies.
+
+## Sectors covered
+
+ABS, CMBS, RMBS, Structured Credit, Corporates, Financial Institutions, Funds, Insurance, Project Finance and Infrastructure, Public Finance, Sovereigns. Each sector has its own publications index at `https://www.kbra.com/sectors/<sector>/publications`, and where applicable transaction, issuer, servicer-evaluation, and third-party-review indexes.
+
+## Regulatory standing
+
+- [Certifications and recognitions](https://www.kbra.com/regulatory/certifications-and-recognitions): SEC NRSRO (2008-02-11), NAIC CRP (2012-07-01), ESMA registration for Kroll Bond Rating Agency Europe Limited (2017-11-13), UK FCA registration for Kroll Bond Rating Agency UK Limited (2023-02-10), EBA and PRA ECAI recognition, OSFI ECAI, Ontario Securities Commission DRO for structured finance, Taiwan FSC qualified rating agency, USDA RUS, U.S. DOL ERISA exemption, U.S. DOT TIFIA, and acceptance in the Fannie Mae and Freddie Mac seller/servicer guides.
+
+## Access and legal
+
+- [Sign up](https://www.kbra.com/sign-up): Free registration for access to published ratings and research.
+- [Log in](https://www.kbra.com/auth/login)
+- [Terms of use](https://www.kbra.com/legal/terms-of-use/website)
+- [Privacy notice](https://www.kbra.com/legal/privacy-notice)
+- [Cookie policy](https://www.kbra.com/legal/cookie-policy)
+
+## Optional
+
+- [Podcasts](https://www.engagewith.kbra.com/podcasts): Including the "3 Things" series.
+
+---
+generated: 2026-07-19
+method: generated
+source: apis.yml + www.kbra.com (no provider-published /llms.txt; probe returned 404)

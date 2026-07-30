@@ -1,0 +1,44 @@
+generated: '2026-07-19'
+method: searched
+source: live HTTP probes of KBRA public hosts
+notes: >-
+  No /.well-known/ discovery documents are published on any KBRA host. Both the
+  primary web host (www.kbra.com) and the Cloudflare-fronted api.kbra.com
+  (which serves the website's internal backend and exposes no public surface)
+  return 404 for every probed path. Recorded so re-runs do not re-probe blindly.
+hosts:
+- host: https://www.kbra.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+  - path: /robots.txt
+    status: 200
+- host: https://api.kbra.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /
+    status: 404
+  - path: /openapi.json
+    status: 404
+  - path: /docs
+    status: 404
+documents_found: 0
