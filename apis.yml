@@ -36,7 +36,7 @@ x-tier-reason: >-
   arrangement (email/FTP/SFTP, Snowflake Marketplace, Bloomberg/Aladdin/FactSet). Company identity,
   regulatory compliance surface, and domain security were captured; API-shaped artifacts are
   legitimately not applicable.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
