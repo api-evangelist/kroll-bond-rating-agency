@@ -36,6 +36,9 @@ accessModel:
   method: derived
 image: https://kbra-static-assets.azureedge.net/assets/kbra-social-logo.webp
 url: https://raw.githubusercontent.com/api-evangelist/kroll-bond-rating-agency/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "KBRA publishes no public API or developer portal; machine access is contract-gated and delivered as bulk feeds over email/FTP/SFTP, through the Snowflake Marketplace, or via Bloomberg, Aladdin, and Fa"
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
