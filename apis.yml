@@ -56,11 +56,11 @@ modified: '2026-07-19'
 tags:
 - Company
 - Credit Ratings
-- Financial-Services
+- Financial Services
 - Financial Data
 - Structured Finance
 - Fixed Income
-- Risk
+- Risk Management
 - Analytics
 - Market Data
 - NRSRO
@@ -75,6 +75,7 @@ tags_raw:
 - Analytics
 - Market Data
 - NRSRO
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
